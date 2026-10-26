@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="600" height="600"><style>@import url("https://fonts.googleapis.com/css2?family=Bagel+Fat+One&amp;display=swap");.t{font-family:"Bagel Fat One","Arial Rounded MT Bold","Arial Black",sans-serif}</style><defs><radialGradient id="r" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#ff9a8c"/><stop offset=".5" stop-color="#e5483c"/><stop offset="1" stop-color="#a82a22"/></radialGradient><radialGradient id="i" cx=".35" cy=".3" r=".85"><stop offset="0" stop-color="#fff"/><stop offset=".55" stop-color="#f3ead3"/><stop offset="1" stop-color="#c9bc98"/></radialGradient></defs>
+<rect x="4" y="10" width="232" height="226" rx="52" fill="#051c15"/>
+<rect x="4" y="4" width="232" height="226" rx="52" fill="#0e3b2c" stroke="#d1a54a" stroke-width="6"/>
+<text class="t" x="120" y="108" font-size="78" textLength="170" lengthAdjust="spacingAndGlyphs" text-anchor="middle" fill="#f5ebd3" stroke="#051c15" stroke-width="8" paint-order="stroke" stroke-linejoin="round">FOUR</text>
+<g><circle cx="60" cy="168" r="20" fill="url(#r)"/><circle cx="100" cy="168" r="20" fill="url(#r)"/><circle cx="140" cy="168" r="20" fill="url(#r)"/><circle cx="180" cy="168" r="20" fill="url(#r)"/></g>
+<path d="M44 198 H196" stroke="#d1a54a" stroke-width="6" stroke-linecap="round"/>
+<circle cx="180" cy="30" r="0" fill="none"/>
+</svg>
