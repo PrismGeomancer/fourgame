@@ -23,7 +23,7 @@ window.FOUR_CONFIG = {
   moveSeconds: 20,          // seconds per move; two timeouts in a row forfeit the match (0 = no clock)
   stakeSol: 0.05,           // stake per player
   prizeSol: 0.1,            // pot paid to the winner
-  xUrl: 'https://x.com/',   // your X profile
+  xUrl: 'https://x.com/Four_game_',   // your X profile
   api: '',                  // optional backend base URL; proposals, votes and matches are POSTed there when set
   features: { sound: true, priceFeed: true, scene3d: true }
 };
@@ -318,7 +318,7 @@ body.home #foot p{max-width:none;white-space:nowrap;overflow:hidden;text-overflo
   <div class="titlecard">
     <h1>No agent.<br>No launchpad.<br><em>Just FOUR.</em></h1>
     <p>Play connect four against another trencher: you each put in 0.05 SOL, and whoever lines up four takes the whole 0.1 SOL pot.</p>
-    <div class="row"><a class="btn red playbtn" href="#/main-tool">Play a match</a><a class="btn ghost xbtn" id="xhome" href="https://x.com/" target="_blank" rel="noopener" style="color:var(--ink);box-shadow:inset 0 0 0 2px #11332b66"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-7.2 8.2L23.3 22h-6.6l-5.2-6.8L5.5 22H2.4l7.7-8.8L1.9 2h6.8l4.7 6.2zm-1.2 18h1.8L7.4 3.9H5.5z"/></svg>Follow on X</a></div>
+    <div class="row"><a class="btn red playbtn" href="#/main-tool">Play a match</a><a class="btn ghost xbtn" id="xhome" href="https://x.com/Four_game_" target="_blank" rel="noopener" style="color:var(--ink);box-shadow:inset 0 0 0 2px #11332b66"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-7.2 8.2L23.3 22h-6.6l-5.2-6.8L5.5 22H2.4l7.7-8.8L1.9 2h6.8l4.7 6.2zm-1.2 18h1.8L7.4 3.9H5.5z"/></svg>Follow on X</a></div>
   </div>
   <div class="pot" id="potchip"><span class="chip">Pots won on this table <b id="potn">0</b> · <b id="pots">0.0</b> SOL</span><button class="sndbtn" id="snd" type="button" aria-pressed="false">Sound off</button></div>
   <p class="hint" id="hint"><span class="hint-pads">Press a pad to go in. </span>Click the board to drop a disc.</p>
@@ -328,7 +328,7 @@ body.home #foot p{max-width:none;white-space:nowrap;overflow:hidden;text-overflo
     <a class="pill" style="background:#1f9d86" href="#/vote">Vote</a>
     <a class="pill" style="background:#b98410" href="#/how">How it works</a>
     <a class="pill" style="background:#4a63c4" href="#/board">Board</a>
-    <a class="pill" style="background:#222" href="https://x.com/" target="_blank" rel="noopener" data-x>X</a>
+    <a class="pill" style="background:#222" href="https://x.com/Four_game_" target="_blank" rel="noopener" data-x>X</a>
   </div>
 </div>
 
@@ -456,7 +456,7 @@ body.home #foot p{max-width:none;white-space:nowrap;overflow:hidden;text-overflo
   <footer id="foot">
     <div class="links">
       <a href="#/">Home</a><a href="#/main-tool">Play</a><a href="#/vote">Vote</a><a href="#/how">How it works</a><a href="#/board">Board</a>
-      <a href="https://x.com/" id="xfoot" target="_blank" rel="noopener">X</a>
+      <a href="https://x.com/Four_game_" id="xfoot" target="_blank" rel="noopener">X</a>
     </div>
     <p>FOUR is a game of skill with real risk: you can lose your stake. Not financial advice. Play only what you can afford to lose. In this first version opponents are house-run until live matchmaking opens, and no funds move.</p>
   </footer>
